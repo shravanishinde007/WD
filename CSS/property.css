@@ -1,0 +1,39 @@
+/* Text Property */
+p{
+    color:green;
+    text-indent: 500px;
+    text-decoration:underline;
+    text-decoration-color:red;
+    text-decoration-style: dotted;
+    text-transform: capitalize;
+}
+h1{
+    text-align: center;
+    text-shadow: 30px 30px 5px rebeccapurple;
+}
+/* font property */
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-style:oblique;
+    font-variant: small-caps;
+    font-weight: 100;
+}
+
+
+/* background property */
+section{
+    height: 90vh;
+    width: 100%;
+   background-image: url("../HTML/1ebe4d32ba19659e69549f7372d244cb.jpg"),url("../HTML/download.jpg");
+   /* background-color: aquamarine; */
+   /* background:linear-gradient(rgba(255, 187, 0, 0.342),rgb(255, 192, 236),orange,purple); */
+  /* background-image: url("../HTML/1ebe4d32ba19659e69549f7372d244cb.jpg"); */
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: contain;
+   background-attachment: fixed;
+   background-blend-mode: lighten;
+
+}
+

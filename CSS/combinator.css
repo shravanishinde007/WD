@@ -1,0 +1,21 @@
+/* Combinator Selector */
+
+/* Descendent Selector */
+div p{
+    color:green;
+}
+
+/* Child CS */
+div>p{
+    font-style: oblique;
+}
+
+/* Adjscent CS */
+div+p{
+    color:darkred;
+}
+
+/* General Sibiling CS */
+div~p{
+    background-color:aqua;
+}

@@ -1,3 +1,40 @@
-h3{
+/* h3{
      color: orange;
+} */
+
+/* Selectors */
+/* Simple Selectors */
+/* Id Selectors */
+
+#h234{
+     color: green;
 }
+/* Class Selector */
+
+.c99{
+     color: purple;
+}
+
+/* Tagname Selector */
+
+h2{
+     font-family: 'Franklin Gothic Medium';
+}
+
+/* Grouping Selector */
+#h234,.c99,h2,p{
+     background-color:chocolate;
+
+}
+
+/* Universal Selector */
+*{
+     background: radial-gradient(blue,pink);
+}
+
+
+/* Combinator Selector */
+
+
+/* Pseudo Class Selector */
+/* Pseudo Element Selector */
